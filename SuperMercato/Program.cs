@@ -15,7 +15,7 @@ namespace SuperMercato
             {
                 sconto = (tot / 100) * 20;
                 prezzofinale = tot - sconto;
-                Console.WriteLine($"Hai speso più di 100 euro, applicando uno sconto paghi {prezzofinale} euro");
+                Console.WriteLine($"Hai speso più di 100 euro, applicando uno sconto paghi {prezzofinale} euro ");
                 Console.ReadLine();
             }else
             {
